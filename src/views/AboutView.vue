@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="money">
+    <Money />
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import Money from "@/components/Money.vue";
+export default {
+  name: "HomeView",
+  components: {
+    Money,
+  },
+};
+</script>
